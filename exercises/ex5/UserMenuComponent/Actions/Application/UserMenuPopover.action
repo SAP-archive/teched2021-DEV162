@@ -4,7 +4,7 @@
 		{
 			"Enabled": true,
 			"Icon": "sap-icon://synchronize",
-			"OnPress": "UserMenu/Globals/Application/SyncActionName.action",
+			"OnPress": "/UserMenu/Rules/Application/CallSyncAction.js",
 			"Title": "Sync Changes",
 			"Visible": "$(PLT,true,true,false)"
 		},
