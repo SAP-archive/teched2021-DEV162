@@ -1,0 +1,108 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"IsIconCircular": false,
+				"OnPress": "/UserMenu/Actions/CloseModalComplete.action",
+				"Position": "right",
+				"SystemItem": "Done",
+				"Text": "Done",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "About",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Header": {
+						"UseTopPadding": false
+					},
+					"KeyAndValues": [
+						{
+							"KeyName": "Current User",
+							"Target": "",
+							"Value": "#Application/#ClientData/UserId",
+							"Visible": true
+						},
+						{
+							"KeyName": "Device",
+							"Target": "",
+							"Value": "#Application/#ClientData/DeviceId",
+							"Visible": true
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"MaxItemCount": 1,
+					"Visible": true,
+					"_Name": "SectionKeyValue2",
+					"_Type": "Section.Type.KeyValue"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"KeyAndValues": [
+						{
+							"KeyName": "Application",
+							"Target": "",
+							"Value": "/UserMenu/Globals/Application/ApplicationName.global",
+							"Visible": true
+						},
+						{
+							"KeyName": "Application Metadata Version",
+							"Target": "",
+							"Value": "/UserMenu/Globals/Application/AppDefinition_Version.global",
+							"Visible": true
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"MaxItemCount": 1,
+					"Visible": true,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"KeyAndValues": [
+						{
+							"KeyName": "Client Version",
+							"Target": "",
+							"Value": "/UserMenu/Rules/Application/GetClientVersion.js",
+							"Visible": true
+						},
+						{
+							"KeyName": "Client Support Versions",
+							"Target": "",
+							"Value": "/UserMenu/Rules/Application/GetClientSupportVersions.js",
+							"Visible": true
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"MaxItemCount": 1,
+					"Visible": true,
+					"_Name": "SectionKeyValue1",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"Target": "",
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"Target": "",
+	"_Name": "About",
+	"_Type": "Page"
+}

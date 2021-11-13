@@ -1,0 +1,6 @@
+{
+	"_Type": "Action.Type.Message",
+	"Message": "Sync Menu Option not configured.  Open the User Menu Component > Actions > Application > UserMenuPopover action and set the Synchronize OnPress action to point to your Service Sync action in the base project.",
+	"Title": "Synchronize",
+	"OKCaption": "OK"
+}

@@ -1,37 +1,27 @@
-# Session ID - Session Title
+# DEV162 – Developing enterprise grade mobile apps and mobile experiences
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2021 session called Session ID - Session Title.  
-
-## Overview
-
-This session introduces attendees to...
+This repository contains the material for the SAP TechEd 2021 session *DEV162 – Developing enterprise grade mobile apps and mobile experiences.*   
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+In order to complete the exercises below, you will need to complete the following two tutorial missons.
+
+* [Set Up an SAP BTP Account for Tutorials](https://developers.sap.com/group.btp-setup.html)
+* [Set Up for Mobile Development Kit(MDK)](https://developers.sap.com/group.mobile-dev-kit-setup.html)
+ 
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+These are the steps of our hands-on session:
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Exercise 1 - Create an application from the MDK template](exercises/ex1/README.md)    
+- [Exercise 2 - Use Bottom Navigation for your application](exercises/ex2/README.md)
+- [Exercise 3 - Create Customer Detail Tabs page with Address info and Order List](exercises/ex3/README.md)
+- [Exercise 4 - Add Another tab item to Bottom Navigation page from second service](exercises/ex4/README.md)
+- [Exercise 5 - Add a user menu to the application](exercises/ex5/README.md)
 
-  
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
 
 ## How to obtain support
 

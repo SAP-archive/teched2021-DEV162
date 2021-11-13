@@ -1,0 +1,84 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.ContactCell",
+					"_Name": "SectionContactCellTable1",
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ContactCells": [
+						{
+							"ContactCell": {
+								"_Name": "ContactCellItem0",
+								"Headline": "Contact Support",
+								"Subheadline": "",
+								"Description": "",
+								"ActivityItems": [
+									{
+										"ActivityType": "Phone",
+										"ActivityValue": "/UserMenu/Globals/Application/Support/UserSupportPhone.global",
+										"_Name": "Phone"
+									},
+									{
+										"ActivityType": "Email",
+										"ActivityValue": "/UserMenu/Globals/Application/Support/UserSupportEmail.global",
+										"_Name": "Email"
+									},
+									{
+										"ActivityType": "VideoCall",
+										"ActivityValue": "/UserMenu/Globals/Application/Support/UserSupportFaceTime.global",
+										"_Name": "VideoCall"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"_Type": "Section.Type.SimplePropertyCollection",
+					"_Name": "SectionSimplePropertyCollection0",
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"SimplePropertyCells": [
+						{
+							"SimplePropertyCell": {
+								"_Name": "SectionSimplePropertyCell0",
+								"KeyName": "Activity Log",
+								"AccessoryType": "disclosureIndicator",
+								"Visible": "$(PLT,true,true,false)",
+								"OnPress": "/UserMenu/Actions/Application/NavToActivityLog.action"
+							}
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 1,
+						"MinimumInteritemSpacing": 66
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Settings",
+	"Caption": "Settings",
+	"ActionBar": {
+		"Items": [
+			{
+				"Text": "Done",
+				"_Name": "ActionBarItem0",
+				"Caption": "",
+				"SystemItem": "Done",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/UserMenu/Actions/CloseModalComplete.action"
+			}
+		],
+		"_Name": "ActionBar0"
+	}
+}
