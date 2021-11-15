@@ -2,11 +2,11 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2021 session *DEV162 – Developing enterprise grade mobile apps and mobile experiences.*   
+This repository contains the material for the SAP TechEd 2021 session *DEV162 – Developing enterprise grade mobile apps and mobile experiences.*   If you are planning to follow along live during the hand-on session, please plan to complete the Requirements section *before* the live session begins.  The workshop will start with the Getting Started exercise and assumes the requirements are already complete.
 
 ## Requirements
 
-In order to complete the exercises below, you will need to complete the following two tutorial missons.
+In order to complete the exercises below, you will need to complete the following two tutorial missons.  
 
 * [Set Up an SAP BTP Account for Tutorials](https://developers.sap.com/group.btp-setup.html)
 * [Set Up for Mobile Development Kit(MDK)](https://developers.sap.com/group.mobile-dev-kit-setup.html)

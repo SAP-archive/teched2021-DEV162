@@ -144,6 +144,6 @@ In the template generated project, there is already a page called *Main.page* wh
 
 ## Summary
 
-You've now changed your application to use a Bottom Navigation page to navigate within the application.
+You've now the Bottom Navigation page as the Main page to navigate within the application.
 
 Continue to - [Exercise 3 - Create Customer Detail Tabs page with Address info and Order List](../ex3/README.md)

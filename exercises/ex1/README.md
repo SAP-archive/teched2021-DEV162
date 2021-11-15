@@ -11,7 +11,7 @@ In this exercise, you will create an MDK application from a template.
 
     https://developers.sap.com/tutorials/cp-mobile-dev-kit-quick-start.html
 
-1. At the end of the template process, the MDKApp will be opened as a workspace in Business Application Studio.
+1. At the end of the creation process, the MDKApp will be opened as a workspace in Business Application Studio.
 
     ![MDK](images/img-opening-workspace.png)
 
@@ -36,6 +36,6 @@ folder.
 
 ## Summary
 
-You've now created and deployed your initial MDK application from a template.
+You've now created and deployed your initial MDK application.
 
 Continue to - [Exercise 2 - Use Bottom Navigation for your application](../ex2/README.md)

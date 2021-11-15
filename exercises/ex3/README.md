@@ -347,6 +347,6 @@ You will now add an additional tab item to display the customer's Sales orders.
 
 ## Summary
 
-You've now created a Tabs page to show the Customer Address and Sales Orders.
+You've now created a Tabs page to show the Customer Address and Sales Orders replacing the default Customer Detail page.
 
 Continue to - [Exercise 4 - Add Another tab item to Bottom Navigation page from second service](../ex4/README.md)
