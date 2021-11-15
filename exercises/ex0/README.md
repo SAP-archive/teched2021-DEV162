@@ -18,4 +18,4 @@ Before starting on the session exercieses, we will first clone the session git r
 
 You've now cloned the repository for this session.
 
-Continue to - [Exercise 1 - Create an application from the MDK template](exercises/ex1/README.md)
+Continue to - [Exercise 1 - Create an application from the MDK template](../ex1/README.md)
