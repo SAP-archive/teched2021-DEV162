@@ -16,6 +16,7 @@ In order to complete the exercises below, you will need to complete the followin
 
 These are the steps of our hands-on session:
 
+- [Getting Started](exercises/ex0/README.md)
 - [Exercise 1 - Create an application from the MDK template](exercises/ex1/README.md)    
 - [Exercise 2 - Use Bottom Navigation for your application](exercises/ex2/README.md)
 - [Exercise 3 - Create Customer Detail Tabs page with Address info and Order List](exercises/ex3/README.md)
