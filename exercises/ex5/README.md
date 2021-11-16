@@ -245,4 +245,6 @@ The User Menu button next needs to be added to the `MDKApp`.
 
 You've now added the User Menu MDK Component to your application.
 
-Congratulations, you have completed the SAP TechEd 2021 session *DEV162 – Developing enterprise grade mobile apps and mobile experiences.*   
+Congratulations, you have completed the SAP TechEd 2021 session *DEV162 – Developing enterprise grade mobile apps and mobile experiences.*
+
+To continue your Mobile Development Kit learning, visit the resources under the [Additional Support and Learning Resources](../README.md#additional-support-and-learning-resources) section.

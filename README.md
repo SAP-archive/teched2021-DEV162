@@ -28,5 +28,13 @@ These are the steps of our hands-on session:
 
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
 
+## Additional Support and Learning Resources
+
+- Visit us in the [SAP Community](https://community.sap.com/topics/mobile-platform)
+
+- Ask a question in the [MDK Q&A community](https://answers.sap.com/tags/73555000100800001081)
+
+- Continue your learning with additional [MDK tutorials](https://developers.sap.com/topics/mobile-development-kit.html#support)
+
 ## License
 Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
