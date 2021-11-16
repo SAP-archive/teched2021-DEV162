@@ -18,7 +18,7 @@ The User Menu contains the following items.
   |----|----|----|
   | `Sync` | Offline Applications running on iOS & Android Clients | This option is only applicable to offline applications.  If your application is an online application, you can set the visibility to false in the UserMenuPopover.action |
   | `Support` | All Clients | The Support option provides an easy way for users to contact support through the use of a contact cell.  The contact information is defined in globals.<br/><br/>The Activity Log option on the Support page allows the user to turn on/off client logging, set the log level, and if enabled in the Mobile Services application, also upload the current client logs. |
-  | `Check for Updates` | Only applies to iOS & Andorid clients. |   This option will check if new Metadata has been deployed to Mobile Services App Update.  If new Metadata is found, it will be downloaded and prompt the user to apply the changes. |
+  | `Check for Updates` | Only applies to iOS & Android clients. |   This option will check if new Metadata has been deployed to Mobile Services App Update.  If new Metadata is found, it will be downloaded and prompt the user to apply the changes. |
   | `About` | All Clients | The About page displays the current user / device id along with the Application Name, Metadata version and Client version information |
   | `Reset` | All Clients | This option will completely reset the client.  This will erase any downloaded data and application Metadata and return the user to the Welcome screen. |
   | `Logout` | Multi-User iOS & Android Clients | This option will only appear if the client is configured to run in multi-user mode.  This option will exit to the sign in page but will not erase any downloaded data or application metadata |
@@ -85,7 +85,7 @@ We will repeat this process in the MDKApp application as well.
 
 ### Exercise 5.3 - Create a CIM file for the User Menu Component
 
-In order for the User Menu Component application to be included when deploying the `MDKApp` application, and to specify the overrides from the compoent application, a CIM file is needed the MDKApp application.
+In order for the User Menu Component application to be included when deploying the `MDKApp` application, and to specify the overrides from the component application, a CIM file is needed in the MDKApp application.
 
 1. Right-click the `Application.app` file in the `MDKApp` project in the explorer pane and select `MDK: New CIM`
 
@@ -151,9 +151,7 @@ Next, for the Sync menu option we need to point to the sync action from the MDKA
 
     ![MDK](images/img-sync-event.png)
 
-1. In the Explorer pane, expand the `UserMenuComponent` | `Globals` | `Application` folder and 
-
-1. Select `SyncActionName.global` and paste the copied action name into the value field.
+1. In the Explorer pane, expand the `UserMenuComponent` | `Globals` | `Application` folder | select `SyncActionName.global` and paste the copied action name into the value field.
 
     ![MDK](images/img-sync-action-global.png)
 
@@ -190,7 +188,7 @@ The User Menu button next needs to be added to the `MDKApp`.
 
     ![MDK](images/img-customer-list-page.png)
 
-1. Drag and drop an `Action Bar Item` from the Controls pallette to the left side of the action bar for the Customers page.
+1. Drag and drop an `Action Bar Item` from the Controls palette to the left side of the action bar for the Customers page.
 
     ![MDK](images/img-customer-add-actionbar-item.png)
 
@@ -204,7 +202,7 @@ The User Menu button next needs to be added to the `MDKApp`.
 
     ![MDK](images/img-umc-item-props.png)
 
-1. Switch to the `Events` tab, select the Object Table, click the `3 dots icon` for the `OnPress` event to open the `Object Browser`, sesarch for `usermenu` and then expand the UserMenu application.  Double-click the **UserMenuPopover.action** and click `OK` to set it as the `OnPress` Action.
+1. Switch to the `Events` tab, select the Object Table, click the `3 dots icon` for the `OnPress` event to open the `Object Browser`, search for `usermenu` and then expand the UserMenu application.  Double-click the **UserMenuPopover.action** and click `OK` to set it as the `OnPress` Action.
 
     ![MDK](images/img-umc-item-onpress.png)
 

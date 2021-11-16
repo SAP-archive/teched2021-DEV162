@@ -7,7 +7,7 @@ In this exercise, you will create an MDK application from a template.
 
 ### Exercise 1.1 - Create the MDKApp project from a template
 
-1. Create the starting MDK application for this session the following link:
+1. Create the starting MDK application for this session using the following link:
 
     https://developers.sap.com/tutorials/cp-mobile-dev-kit-quick-start.html
 

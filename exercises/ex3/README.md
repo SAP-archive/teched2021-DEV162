@@ -38,7 +38,7 @@ Tabs pages also support displaying the header above the tabs so you can have a p
 
 ### Exercise 3.2 - Add a Profile Header
 
-Next, you will add a `Profile Header` container to display information like first name, last name and will add activity items to make a trigger a phone call or open an email client.
+Next, you will add a `Profile Header` container to display information like first name, last name and will add activity items to trigger a phone call or open an email client.
 
 1. In the Layout Editor, expand the `Controls` | `Container` section, drag and drop the `Profile Header` control onto the page area.
 
@@ -100,7 +100,7 @@ You will update the default tab item properties and create a new page bound to t
 
     ![MDK](images/img-14.png)
 
-6. The newly created `Customers_Address.page` will open automatically in the page editor. In the main area of the page, let's display some other details like: address, city, postal code, county, phone and email address.
+6. The newly created `Customers_Address.page` will open automatically in the page editor. In the main area of the page, let's display some other details like: address, city, postal code, country, phone and email address.
 
     Drag and drop a `Static Key Value` container onto the page.
 

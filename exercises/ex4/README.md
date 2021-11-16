@@ -50,7 +50,7 @@ The service has been provided as an `.mtar` file for easy deployment to your sub
 
 1. In Business Application Studio, navigate to the `ex4` exercise folder in the Session repository.
 
-1. Right click on the `TechEdService.properties` desitnation template and select Download
+1. Right click on the `TechEdService.properties` destination template and select Download
 
     ![MDK](images/img-download-template.png)
 
@@ -290,6 +290,6 @@ You will now add an additional tab item to display the list of Risks from the ne
 
 ## Summary
 
-You've now added tbe second service to your application and displayed data from the service in your application.
+You've now added the second service to your application and displayed data from the service in your application.
 
 Continue to - [Exercise 5 - Add a user menu to the application](../ex5/README.md)    
