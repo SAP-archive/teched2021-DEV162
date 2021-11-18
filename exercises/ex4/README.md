@@ -162,6 +162,8 @@ The service has been provided as an `.mtar` file for easy deployment to your sub
     | `Action Result` | Set the value to `init` |
     | `Success Action` | Click the link icon and bind it to `Service` > `InitializeOfflineSuccessMessage.action` |
     | `Failure Action` | Click the link icon and bind it to `Service` > `InitializeOfflineFailureMessage.action` |
+    | `Show Activity Indicator` | Select `true` from the drop down |
+    | `Activity Indicator Text` | Set the value to `Downloading...` |
 
     ![MDK](images/img-init-action5.png)
 
