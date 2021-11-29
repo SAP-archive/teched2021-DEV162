@@ -1,108 +1,118 @@
 {
-	"ActionBar": {
-		"Items": [
-			{
-				"IsIconCircular": false,
-				"OnPress": "/UserMenu/Actions/CloseModalComplete.action",
-				"Position": "right",
-				"SystemItem": "Done",
-				"Text": "Done",
-				"Visible": true
-			}
-		]
-	},
-	"Caption": "About",
 	"Controls": [
 		{
+			"Target": "",
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
 			"Sections": [
 				{
-					"EmptySection": {
-						"FooterVisible": false
-					},
-					"Header": {
-						"UseTopPadding": false
-					},
 					"KeyAndValues": [
 						{
-							"KeyName": "Current User",
 							"Target": "",
 							"Value": "#Application/#ClientData/UserId",
+							"_Name": "KeyValue0",
+							"KeyName": "Current User",
 							"Visible": true
 						},
 						{
-							"KeyName": "Device",
 							"Target": "",
 							"Value": "#Application/#ClientData/DeviceId",
+							"_Name": "KeyValue1",
+							"KeyName": "Device",
 							"Visible": true
 						}
 					],
-					"Layout": {
-						"NumberOfColumns": 1
-					},
 					"MaxItemCount": 1,
-					"Visible": true,
+					"_Type": "Section.Type.KeyValue",
 					"_Name": "SectionKeyValue2",
-					"_Type": "Section.Type.KeyValue"
-				},
-				{
+					"Header": {
+						"_Name": "SectionHeader0",
+						"UseTopPadding": false
+					},
+					"Visible": true,
 					"EmptySection": {
 						"FooterVisible": false
 					},
+					"Layout": {
+						"NumberOfColumns": 1
+					}
+				},
+				{
 					"KeyAndValues": [
 						{
-							"KeyName": "Application",
 							"Target": "",
 							"Value": "/UserMenu/Globals/Application/ApplicationName.global",
+							"_Name": "KeyValue2",
+							"KeyName": "Application",
 							"Visible": true
 						},
 						{
-							"KeyName": "Application Metadata Version",
 							"Target": "",
-							"Value": "/UserMenu/Globals/Application/AppDefinition_Version.global",
+							"Value": "/UserMenu/Rules/Application/GetDefinitionsVersion.js",
+							"_Name": "KeyValue3",
+							"KeyName": "Application Metadata Version",
 							"Visible": true
 						}
 					],
-					"Layout": {
-						"NumberOfColumns": 1
-					},
 					"MaxItemCount": 1,
-					"Visible": true,
+					"_Type": "Section.Type.KeyValue",
 					"_Name": "SectionKeyValue0",
-					"_Type": "Section.Type.KeyValue"
-				},
-				{
+					"Visible": true,
 					"EmptySection": {
 						"FooterVisible": false
 					},
+					"Layout": {
+						"NumberOfColumns": 1
+					}
+				},
+				{
 					"KeyAndValues": [
 						{
-							"KeyName": "Client Version",
 							"Target": "",
 							"Value": "/UserMenu/Rules/Application/GetClientVersion.js",
+							"_Name": "KeyValue4",
+							"KeyName": "Client Version",
 							"Visible": true
 						},
 						{
-							"KeyName": "Client Support Versions",
 							"Target": "",
 							"Value": "/UserMenu/Rules/Application/GetClientSupportVersions.js",
+							"_Name": "KeyValue5",
+							"KeyName": "Client Support Versions",
 							"Visible": true
 						}
 					],
+					"MaxItemCount": 1,
+					"_Type": "Section.Type.KeyValue",
+					"_Name": "SectionKeyValue1",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
 					"Layout": {
 						"NumberOfColumns": 1
-					},
-					"MaxItemCount": 1,
-					"Visible": true,
-					"_Name": "SectionKeyValue1",
-					"_Type": "Section.Type.KeyValue"
+					}
 				}
-			],
-			"Target": "",
-			"_Name": "SectionedTable0",
-			"_Type": "Control.Type.SectionedTable"
+			]
 		}
 	],
 	"Target": "",
+	"_Type": "Page",
 	"_Name": "About",
-	"_Type": "Page"
+	"Caption": "About",
+	"ActionBar": {
+		"Items": [
+			{
+				"Text": "Done",
+				"_Name": "ActionBarItem0",
+				"Caption": "",
+				"SystemItem": "Done",
+				"Position": "right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/UserMenu/Actions/CloseModalComplete.action"
+			}
+		],
+		"_Name": "ActionBar0"
+	}
 }
