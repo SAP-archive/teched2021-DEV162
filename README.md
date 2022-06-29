@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2021-DEV162)](https://api.reuse.software/info/github.com/SAP-samples/teched2021-DEV162)
+
 # DEV162 – Developing enterprise grade mobile apps and mobile experiences
 
 ## Description
